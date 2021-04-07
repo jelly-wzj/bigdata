@@ -98,6 +98,7 @@
 - README.md
 - Mainfest.md
 - _config.yml
+- feed.xml  
 - index.html
 - index.cn.html
 - index.en.html
