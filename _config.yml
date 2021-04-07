@@ -16,11 +16,11 @@ highlighter:     rouge
 url: https://jelly-wzj.github.io
 #github: https://github.com/joytou/
 baseurl: "/blog"
-dnsPrefetch: "on"
-#dnsPrefetch: "off" if don't want use dns-prefetch
-dns:
-      - "//dns18.hichina.com"
-      - "//dns17.hichina.com"
+#dnsPrefetch: "on"
+##dnsPrefetch: "off" if don't want use dns-prefetch
+#dns:
+#      - "//dns18.hichina.com"
+#      - "//dns17.hichina.com"
       
 #Github announce Settings
 #github_username: joytou
@@ -73,11 +73,11 @@ keywords:
 #Others
 
 #ChangYan
-changyan:
-  appid: "cys9CkC15"
-  appconf: "prod_6c14cfe1b9706846e412ddac9bcdb068"
+#changyan:
+#  appid: "cys9CkC15"
+#  appconf: "prod_6c14cfe1b9706846e412ddac9bcdb068"
   
 #Formspree
-formspree:
-  email_prefix: "1540294142"
-  email_suffix: "qq.com"
+#formspree:
+#  email_prefix: "1540294142"
+#  email_suffix: "qq.com"
