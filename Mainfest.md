@@ -94,7 +94,6 @@
   - index.en.html
   - index.tw.html
 - .gitignore
-- CNAME
 - LICENSE
 - README.md
 - Mainfest.md
@@ -103,8 +102,4 @@
 - index.cn.html
 - index.en.html
 - index.tw.html
-- robots.txt
-- search.json
-- sitemap.xml
-- feed.xml
 - 404.html
