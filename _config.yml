@@ -4,18 +4,18 @@ url: "https://jelly-wzj.github.io"    # the protocol and hostname of your site, 
 baseurl: "/blog" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 timezone: Asia/Shanghai
 description: >
-  学习是最美的生活方式
+  ): 记录点点滴滴.
 
 # Your information
 email: 1350013737@qq.com
 author: jelly
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+avatar: "https://github.com/jelly-wzj/blog/tree/gh-pages/assets/head_pic.jpg"
+profile: 一枚奋战的前线码农.
 #twitter_username: twitter_username
 #github_username:  github_username
-profile_links:
-  Email: "mailto:1350013737@qq.com"
-  GitHub: "https://jelly-wzj.github.io/blog"
+#profile_links:
+#  Email: "mailto:1350013737@qq.com"
+#  GitHub: "https://jelly-wzj.github.io/blog"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
