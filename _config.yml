@@ -1,21 +1,21 @@
 # Site settings
-title: Another Blog
-url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+title: Jelly Blog
+url: "https://jelly-wzj.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/blog" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
   One or more sentences introducing this blog.
 
 # Your information
-email: your_email@example.com
-author: your_name
+email: 1350013737@qq.com
+author: jelly
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  Email: "mailto:your_email@example.com"
-  GitHub: "https://github.com/laobubu/jekyll-theme-EasyBook"
+  Email: "mailto:1350013737@qq.com"
+  GitHub: "https://jelly-wzj.github.io/blog"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
@@ -26,16 +26,16 @@ profile_links:
 excerpt_separator: <!--more-->
 
 header:
-  links:             # Links on the header. Link to in-site page with a slash as prefix
+  links: # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
     Category: /category/
     Donate: https://laobubu.net/donate.html
 
 permalink: /archivers/:title
 plugins:
- - jekyll-paginate
- - jekyll-gist
- - jemoji
+  - jekyll-paginate
+  - jekyll-gist
+  - jemoji
 
 # Build settings
 paginate: 5
@@ -46,8 +46,7 @@ markdown: kramdown
 
 # https://jekyllrb.com/docs/configuration/#precedence
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
