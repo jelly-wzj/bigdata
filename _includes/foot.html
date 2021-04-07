@@ -2,8 +2,8 @@
 {%- capture builder -%}<a href="//joytou.net.cn/">Joytou</a>{%- endcapture -%}
 {%- capture style -%}<a href="http://getbootstrap.com">Bootstrap</a>{%- endcapture -%}
 <div class="blog-footer text-justify">
-      <p class="text-center">{{ translation.footcopyright | replace: 'builder', builder | replace: 'style', style }}</p>
-    </div>
+    <p class="text-center">{{ translation.footcopyright | replace: 'builder', builder | replace: 'style', style }}</p>
+</div>
 <!-- javascript -->
 <script src="{{ "/assets/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}?v={{ site.time | date:"%Y%m%d" }}"></script>
 <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}?v={{ site.time | date:"%Y%m%d" }}"></script>
