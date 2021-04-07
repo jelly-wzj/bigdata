@@ -2,9 +2,9 @@
 title: Jelly Blog
 url: "https://jelly-wzj.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "/blog" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
-#timezone: Asia/Chongqing
+timezone: Asia/Shanghai
 description: >
-  One or more sentences introducing this blog.
+  学习是最美的生活方式
 
 # Your information
 email: 1350013737@qq.com
