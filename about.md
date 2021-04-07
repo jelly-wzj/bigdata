@@ -6,4 +6,4 @@ permalink: /about/
 
 Welcome to this website!
 
-> [jelly github](https://github.com/jelly-wzj)
+> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
