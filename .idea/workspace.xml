@@ -64,6 +64,7 @@
       <updated>1617757032414</updated>
       <workItem from="1617757033786" duration="12095000" />
       <workItem from="1617784868458" duration="1884000" />
+      <workItem from="1617849615607" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="init blog">
       <created>1617757137776</created>
@@ -310,7 +311,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617795997422</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1617849632352</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1617849632352</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1617849746772</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1617849746772</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1617849880599</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1617849880599</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +373,7 @@
         <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />

@@ -1,5 +1,3 @@
-### hostname(centos7)的几种修改方式
-
 1. hostname命令
 
    ```shell
