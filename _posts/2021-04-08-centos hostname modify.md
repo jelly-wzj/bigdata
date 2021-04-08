@@ -1,9 +1,5 @@
 ### hostname(centos7)的几种修改方式
 
-----------------------------------------------------------------------------------------------------------------------
-
-
-
 1. hostname命令
 
    ```shell
@@ -12,7 +8,6 @@
    #立即生效
    ```
 
-   
 
 2. hostnamectl命令
 
@@ -24,7 +19,6 @@
    hostnamectl --static set-hostname xx #永久
    ```
 
-   
 
 3. sysctl kernel.hostname命令
 
@@ -34,7 +28,6 @@
    #立即生效
    ```
 
-   
 
 4. 修改/etc/hostname文件
 
@@ -44,7 +37,6 @@
    #级别最低
    ```
 
-   
 
 5. 修改/proc/sys/kernel/hostname文件
 
@@ -54,7 +46,6 @@
    #立即生效
    ```
 
-   
 
 6. 修改/etc/sysconfig/network文件
 
