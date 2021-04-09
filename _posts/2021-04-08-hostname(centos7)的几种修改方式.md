@@ -6,7 +6,7 @@ categories: linux
 permalink: /archivers/hostname
 ---
 
-在centos7下，修改hostname的集中方式．
+在centos7下，修改hostname的几种方式．
 
 1. hostname命令
 

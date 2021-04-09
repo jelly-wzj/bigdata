@@ -27,8 +27,8 @@ excerpt_separator: <!--more-->
 
 header:
   links: # Links on the header. Link to in-site page with a slash as prefix
-    About: /about/
-    Category: /category/
+    Category: /分类/
+    About: /关于/
 #    Donate: https://laobubu.net/donate.html
 
 permalink: /archivers/:title
