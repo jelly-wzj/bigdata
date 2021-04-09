@@ -1,10 +1,10 @@
-```
+---
 layout: post
 title:  "hostname(centos7)的几种修改方式"
 date:   2021-04-08 08:00
 categories: linux
 permalink: /archivers/test
-```
+---
 
 1. hostname命令
 
