@@ -3,8 +3,10 @@ layout: post
 title:  "hostname(centos7)的几种修改方式"
 date:   2021-04-08 08:00
 categories: linux
-permalink: /archivers/test
+permalink: /archivers/linux
 ---
+
+在centos7下，修改hostname的集中方式．
 
 1. hostname命令
 
