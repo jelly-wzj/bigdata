@@ -6,8 +6,6 @@ categories: linux
 permalink: /archivers/test
 ```
 
-
-
 1. hostname命令
 
    ```shell
