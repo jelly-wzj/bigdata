@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3bb6ea-0b0a-4ccb-9426-e2925eaadda2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2021-04-08-JVM常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-08-JVM常用命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-04-08-hostname(centos7)的几种修改方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-08-hostname(centos7)的几种修改方式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,21 +72,7 @@
       <workItem from="1617784868458" duration="1884000" />
       <workItem from="1617849615607" duration="321000" />
       <workItem from="1617892875402" duration="1569000" />
-      <workItem from="1617974730483" duration="3663000" />
-    </task>
-    <task id="LOCAL-00002" summary="init blog">
-      <created>1617757828499</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1617757828499</updated>
-    </task>
-    <task id="LOCAL-00003" summary="init blog">
-      <created>1617758115253</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1617758115253</updated>
+      <workItem from="1617974730483" duration="4696000" />
     </task>
     <task id="LOCAL-00004" summary="init blog">
       <created>1617758526208</created>
@@ -415,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617981365311</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="init blog">
+      <created>1617981577744</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981577745</updated>
+    </task>
+    <task id="LOCAL-00052" summary="init blog">
+      <created>1617981674066</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981674066</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
