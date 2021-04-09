@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3bb6ea-0b0a-4ccb-9426-e2925eaadda2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-04-08-JVM常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-08-JVM常用命令.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2021-04-08-hostname(centos7)的几种修改方式.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-08-hostname(centos7)的几种修改方式.md" afterDir="false" />
     </list>
@@ -71,14 +70,7 @@
       <workItem from="1617784868458" duration="1884000" />
       <workItem from="1617849615607" duration="321000" />
       <workItem from="1617892875402" duration="1569000" />
-      <workItem from="1617974730483" duration="3242000" />
-    </task>
-    <task id="LOCAL-00001" summary="init blog">
-      <created>1617757137776</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1617757137776</updated>
+      <workItem from="1617974730483" duration="3663000" />
     </task>
     <task id="LOCAL-00002" summary="init blog">
       <created>1617757828499</created>
@@ -409,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617980329216</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="init blog">
+      <created>1617981094179</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981094179</updated>
+    </task>
+    <task id="LOCAL-00050" summary="init blog">
+      <created>1617981365306</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1617981365311</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
