@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ee3bb6ea-0b0a-4ccb-9426-e2925eaadda2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2021-04-11-jvm之虚拟机类加载机制.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-04-11-jvm之虚拟机类加载机制.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +58,7 @@
       <workItem from="1617849615607" duration="321000" />
       <workItem from="1617892875402" duration="1569000" />
       <workItem from="1617974730483" duration="5043000" />
-      <workItem from="1617983083300" duration="15264000" />
-    </task>
-    <task id="LOCAL-00023" summary="init blog">
-      <created>1617783735762</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1617783735762</updated>
-    </task>
-    <task id="LOCAL-00024" summary="init blog">
-      <created>1617784439702</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1617784439702</updated>
+      <workItem from="1617983083300" duration="16339000" />
     </task>
     <task id="LOCAL-00025" summary="init blog">
       <created>1617784972282</created>
@@ -404,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618129145647</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="init blog">
+      <created>1618133830656</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1618133830657</updated>
+    </task>
+    <task id="LOCAL-00073" summary="init blog">
+      <created>1618133868685</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1618133868685</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
