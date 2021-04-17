@@ -73,21 +73,7 @@
       <workItem from="1617892875402" duration="1569000" />
       <workItem from="1617974730483" duration="5043000" />
       <workItem from="1617983083300" duration="16473000" />
-      <workItem from="1618660693792" duration="1318000" />
-    </task>
-    <task id="LOCAL-00027" summary="init blog">
-      <created>1617793029972</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1617793029972</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1617794249368</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1617794249368</updated>
+      <workItem from="1618660693792" duration="2827000" />
     </task>
     <task id="LOCAL-00029" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <created>1617794597522</created>
@@ -418,7 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618135236769</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="init blog">
+      <created>1618670781107</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1618670781109</updated>
+    </task>
+    <task id="LOCAL-00077" summary="init blog">
+      <created>1618671017204</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1618671017204</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
