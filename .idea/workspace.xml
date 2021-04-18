@@ -61,21 +61,7 @@
       <workItem from="1617974730483" duration="5043000" />
       <workItem from="1617983083300" duration="16473000" />
       <workItem from="1618660693792" duration="2827000" />
-      <workItem from="1618710426607" duration="3812000" />
-    </task>
-    <task id="LOCAL-00038" summary="Revert &quot;init blog&quot;&#10;&#10;This reverts commit 1fe031effb9113c13ff713626e68f8dadd2eb485.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1617849880599</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1617849880599</updated>
-    </task>
-    <task id="LOCAL-00039" summary="init blog">
-      <created>1617893241611</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1617893241611</updated>
+      <workItem from="1618710426607" duration="5132000" />
     </task>
     <task id="LOCAL-00040" summary="init blog">
       <created>1617893272040</created>
@@ -406,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618718279004</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="init blog">
+      <created>1618720395613</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1618720395613</updated>
+    </task>
+    <task id="LOCAL-00088" summary="init blog">
+      <created>1618720492153</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1618720492153</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
