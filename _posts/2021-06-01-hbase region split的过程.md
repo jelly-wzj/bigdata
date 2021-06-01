@@ -121,6 +121,8 @@ conf.set("hbase.regionserver.region.split.policy", "org.apache.hadoop.hbase.regi
 ```javascript
 HTableDescriptor tableDesc = new HTableDescriptor(TableName.valueOf("tableName"));
 tableDesc.setRegionSplitPolicyClassName("org.apache.hadoop.hbase.regionserver.ConstantSizeRegionSplitPolicy");
+
+create ’table’, {NAME => ‘cf’, SPLIT_POLICY => ‘org.apache.hadoop.hbase.regionserver. ConstantSizeRegionSplitPolicy'}
 ```
 
 ​	
@@ -153,6 +155,16 @@ tableDesc.setRegionSplitPolicyClassName("org.apache.hadoop.hbase.regionserver.Co
    - 10、RegionServer将zookeeper中的znode /hbase/region-in-transition/region-name更改为SPLIT状态，以便Master可以监测到。如果子Region被选中了，Balancer可以自由地将子region分派到其他RegionServer上。
    - 11、分裂之后，元数据和HDFS中依然包含着指向父region的Reference文件。这些Reference文件将在子region发生紧缩操作重写数据文件时被删除掉。Master的垃圾回收工会周期性地检测是否还有指向父region的Reference，如果没有，将删除父region。
 
+   
+
 3. 回滚阶段
+
+   如果execute阶段出现异常，则执行rollback操作。为了实现回滚，整个切分过程被分为很多子阶段，回滚程序会根据当前进展到哪个子阶段清理对应的垃圾数据。代码中使用 JournalEntryType 来表征各个子阶段，具体见下图：![201809101204082b2a2244-f7f7-49d5-9111-1727ed83e04c.png](https://nos.netease.com/cloud-website-bucket/201809101204082b2a2244-f7f7-49d5-9111-1727ed83e04c.png)
+
+
+
+
+
+
 
 > 分裂问题
