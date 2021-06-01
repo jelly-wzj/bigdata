@@ -163,8 +163,49 @@ create ’table’, {NAME => ‘cf’, SPLIT_POLICY => ‘org.apache.hadoop.hbas
 
 
 
-
-
-
-
 > 分裂问题
+
+通过region切分流程的了解，我们知道整个region切分过程并没有涉及数据的移动，所以切分成本本身并不是很高，可以很快完成。切分后子region的文件实际没有任何用户数据，文件中存储的仅是一些元数据信息－切分点rowkey等，那通过引用文件如何查找数据呢？子region的数据实际在什么时候完成真正迁移？数据迁移完成之后父region什么时候会被删掉？
+
+1. 通过reference文件如何查找数据？
+这里就会看到reference文件名、文件内容的实际意义啦。整个流程如下图所示：
+
+  ![201809101204244637cbc7-9978-47e5-8984-4328ddba8456.png](https://nos.netease.com/cloud-website-bucket/201809101204244637cbc7-9978-47e5-8984-4328ddba8456.png)
+
+（1）根据reference文件名（region名+真实文件名）定位到真实数据所在文件路径
+
+（2）定位到真实数据文件就可以在整个文件中扫描待查KV了么？非也。因为reference文件通常都只引用了数据文件的一半数据，以切分点为界，要么上半部分文件数据，要么下半部分数据。那到底哪部分数据？切分点又是哪个点？还记得上文又提到reference文件的文件内容吧，没错，就记录在文件中。
+
+2. 父region的数据什么时候会迁移到子region目录？
+答案是子region发生major_compaction时。我们知道compaction的执行实际上是将store中所有小文件一个KV一个KV从小到大读出来之后再顺序写入一个大文件，完成之后再将小文件删掉，因此compaction本身就需要读取并写入大量数据。子region执行major_compaction后会将父目录中属于该子region的所有数据读出来并写入子region目录数据文件中。可见将数据迁移放到compaction这个阶段来做，是一件顺便的事。
+
+3. 父region什么时候会被删除？
+实际上HMaster会启动一个线程定期遍历检查所有处于splitting状态的父region，确定检查父region是否可以被清理。检测线程首先会在meta表中揪出所有split列为true的region，并加载出其分裂后生成的两个子region（meta表中splitA列和splitB列），只需要检查此两个子region是否还存在引用文件，如果都不存在引用文件就可以认为该父region对应的文件可以被删除。现在再来看看上文中父目录在meta表中的信息，就大概可以理解为什么会存储这些信息了：
+
+4. split模块在生产线的一些坑？
+  有些时候会有同学反馈说集群中部分region处于长时间RIT，region状态为spliting。通常情况下都会建议使用hbck看下什么报错，然后再根据hbck提供的一些工具进行修复，hbck提供了部分命令对处于split状态的rit region进行修复，主要的命令如下：
+
+  ```
+    -fixSplitParents  Try to force offline split parents to be online.
+    -removeParents    Try to offline and sideline lingering parents and keep daughter regions.
+    -fixReferenceFiles  Try to offline lingering reference store files
+  ```
+
+  
+
+  其中最常见的问题是 ：
+
+  ```
+  ERROR: Found lingering reference file hdfs://mycluster/hbase/news_user_actions/3b3ae24c65fc5094bc2acfebaa7a56de/meta/0f47cda55fa44cf9aa2599079894aed6.b7b3faab86527b88a92f2a248a54d3dc”
+  ```
+
+  
+
+  简单解释一下，这个错误是说reference文件所引用的父region文件不存在了，如果查看日志的话有可能看到如下异常：
+
+  ```
+  java.io.IOException: java.io.IOException: java.io.FileNotFoundException: File does not exist:/hbase/news_user_actions/b7b3faab86527b88a92f2a248a54d3dc/meta/0f47cda55fa44cf9aa2599079894aed
+  ```
+
+  父region文件为什么会莫名其妙不存在？经过和朋友的讨论，确认有可能是因为官方bug导致，详见HBASE-13331。这个jira是说HMaster在确认父目录是否可以被删除时，如果检查引用文件（检查是否存在、检查是否可以正常打开）抛出IOException异常，函数就会返回没有引用文件，导致父region被删掉。正常情况下应该保险起见返回存在引用文件，保留父region，并打印日志手工介入查看。如果大家也遇到类似的问题，可以看看这个问题，也可以将修复patch打到线上版本或者升级版本。
+ 
