@@ -71,7 +71,7 @@ HBase的region split策略一共有以下6种：
   * 2.0版本默认切分策略
   * 相比 IncreasingToUpperBoundRegionSplitPolicy 简单了一些
   * region切分的阈值依然和待分裂region所属表在当前regionserver上的region个数有关系
-    * 如果region个数等于1，切分阈值为flush size 128M * 2
+    * 如果region个数等于1，切分阈值为flush size :128M * 2
     * 否则为MaxRegionFileSize。
   * 这种切分策略对于大集群中的大表、小表会比 IncreasingToUpperBoundRegionSplitPolicy 更加友好，小表不会再产生大量的小region，而是适可而止。
 
@@ -93,6 +93,32 @@ HBase的region split策略一共有以下6种：
 * **DisabledRegionSplitPolicy**
 
   不启用自动拆分, 需要指定手动拆分
+
+
+
+------
+
+#### 使用方式
+
+1). 在hbase-site.xml中配置，例如：
+
+```javascript
+<property> 
+    <name>hbase.regionserver.region.split.policy</name>  
+    <value>org.apache.hadoop.hbase.regionserver.IncreasingToUpperBoundRegionSplitPolicy</value> 
+</property>
+```
+
+2). 在HBase Configuration中配置
+
+```javascript
+private static Configuration conf = HBaseConfiguration.create();
+conf.set("hbase.regionserver.region.split.policy", "org.apache.hadoop.hbase.regionserver.SteppingSplitPolicy");
+```
+
+3). 在创建表的时候配置 Region的拆分策略需要根据表的属性来合理的配置，所以建议不要使用前两种方法来配置拆分策略，关于在建表的时候怎么配置，会在下面解释每种策略的时候说明。
+
+​	
 
 > 分裂点
 
