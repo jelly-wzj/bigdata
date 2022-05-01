@@ -3,7 +3,7 @@ layout: post
 title:  "flink checkpoint 原理与应用"
 date:   2022-05-01 11:22
 categories: bigdata
-permalink: /archivers/bigdata
+permalink: /archivers/bigdata-flink-checkpoint-02
 ---
 
 

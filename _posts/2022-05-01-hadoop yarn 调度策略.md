@@ -3,7 +3,7 @@ layout: post
 title:  "yarn 调度策略"
 date:   2022-05-01 17:45
 categories: bigdata
-permalink: /archivers/bigdata
+permalink: /archivers/bigdata-yarn
 ---
 
 
