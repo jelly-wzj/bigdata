@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "flink checkpoint 原理与应用.md"
+title:  "flink checkpoint 机制详细解析"
 date:   2022-05-01 11:22
 categories: bigdata
 permalink: /archivers/bigdata
