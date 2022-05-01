@@ -7,7 +7,6 @@ permalink: /archivers/bigdata
 ---
 
 
-
 YARN资源调度策略
 
 YARN 资源调度器是直接从MR基础上修改而来，它提供了三种可用资源调度器，分别是FIFO Scheduler、Yahoo!的Capacity Scheduler 和Fackbook 的 Fair Scheduler，它们的原理和细节基本上与MR的三种调度器一致。都是层级队列方式组织资源的。这种方式符合公司或部门组织架构，有利于资源在不同资源间分配和共享，进而提高集群资源利用率。
