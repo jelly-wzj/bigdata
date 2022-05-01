@@ -183,3 +183,5 @@ Savepoint 与 Checkpoint 的区别
 作业恢复时，二者均可以使用，主要区别如下：
 
 ![img](https://pics1.baidu.com/feed/83025aafa40f4bfbed50ec63148506f5f6361857.png?token=2884a7dda32f2177143cc62cb111c5db&s=1AAA70238DE44C011CFD90CE0300E0B1)
+
+转载于：唐云(茶干)

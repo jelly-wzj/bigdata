@@ -231,3 +231,4 @@ val env = ExecutionEnvironment.getExecutionEnvironment()
 env.setRestartStrategy(RestartStrategies.noRestart())
 ```
 
+转载于：https://www.cnblogs.com/itlz/p/14336733.html
