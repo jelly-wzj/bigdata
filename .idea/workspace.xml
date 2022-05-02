@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3bb6ea-0b0a-4ccb-9426-e2925eaadda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-05-02-hadoop HA.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-04-11-jvm之虚拟机类加载机制.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2021-04-10-ＤＤＤ模型之实体与值对象.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -111,18 +102,32 @@
         <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1080" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop HA.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="144">
                 <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -163,6 +168,8 @@
         <option value="$PROJECT_DIR$/_posts/2022-05-01-hadoop fsimage和edits.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage 和 edits.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop HA.md" />
       </list>
     </option>
   </component>
@@ -215,7 +222,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651457395179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651457765362" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../roc-pack" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -263,21 +270,7 @@
       <workItem from="1622348376095" duration="3603000" />
       <workItem from="1622375836926" duration="2118000" />
       <workItem from="1651318866823" duration="2541000" />
-      <workItem from="1651391010591" duration="7380000" />
-    </task>
-    <task id="LOCAL-00078" summary="init blog">
-      <created>1618715269681</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1618715269682</updated>
-    </task>
-    <task id="LOCAL-00079" summary="init blog">
-      <created>1618715386297</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1618715386297</updated>
+      <workItem from="1651391010591" duration="7747000" />
     </task>
     <task id="LOCAL-00080" summary="init blog">
       <created>1618715496524</created>
@@ -608,11 +601,25 @@
       <option name="project" value="LOCAL" />
       <updated>1651401026991</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="add [hadoop secondary namenode]">
+      <created>1651457414194</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1651457414194</updated>
+    </task>
+    <task id="LOCAL-00128" summary="add [hadoop secondary namenode]">
+      <created>1651457421292</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1651457421292</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9921000" />
+    <option name="totallyTimeSpent" value="10288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
@@ -727,7 +734,8 @@
     <MESSAGE value="add [flink 背压]" />
     <MESSAGE value="add [flink checkpoint]" />
     <MESSAGE value="add [yarn 调度策略]" />
-    <option name="LAST_COMMIT_MESSAGE" value="add [yarn 调度策略]" />
+    <MESSAGE value="add [hadoop secondary namenode]" />
+    <option name="LAST_COMMIT_MESSAGE" value="add [hadoop secondary namenode]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/2022-04-30-Flink网络流控及反压机制.md">
@@ -914,15 +922,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1080" />
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop HA.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="144">

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "hadoop fsimage和edits"
-date:   2022-05-01 10:06
+date:   2022-05-02 10:14
 categories: bigdata
 permalink: /archivers/bigdata-fsedit
 ---
