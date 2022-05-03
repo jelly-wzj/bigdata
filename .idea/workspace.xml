@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee3bb6ea-0b0a-4ccb-9426-e2925eaadda2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2022-05-02-flink 精准一次处理语义 .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2022-05-03-mysql 索引.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,30 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2021-04-08-hostname(centos7)的几种修改方式.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2022-05-01-kafka 副本机制.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-990">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2022-05-01-hadoop 框架.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -111,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-Hadoop3.x HDFS纠删码.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -127,8 +105,32 @@
         <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-05-03-mysql 索引.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="108">
+                <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-flink 精准一次处理语义 .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -168,11 +170,13 @@
         <option value="$PROJECT_DIR$/_posts/2022-05-01-hadoop 框架.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-01-hadoop fsimage和edits.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage 和 edits.md" />
-        <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop HA.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-spark shuffle.md" />
         <option value="$PROJECT_DIR$/_posts/2022-05-02-Hadoop3.x HDFS纠删码.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-05-03-mysql 索引.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-05-02-flink 精准一次处理语义 .md" />
       </list>
     </option>
   </component>
@@ -225,7 +229,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651509326360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1651550119711" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../roc-pack" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -273,14 +277,7 @@
       <workItem from="1622348376095" duration="3603000" />
       <workItem from="1622375836926" duration="2118000" />
       <workItem from="1651318866823" duration="2541000" />
-      <workItem from="1651391010591" duration="9885000" />
-    </task>
-    <task id="LOCAL-00083" summary="init blog">
-      <created>1618717834758</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1618717834758</updated>
+      <workItem from="1651391010591" duration="10995000" />
     </task>
     <task id="LOCAL-00084" summary="init blog">
       <created>1618718244621</created>
@@ -618,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1651501547692</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="add [hadoop ec]">
+      <created>1651509347968</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1651509347968</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12426000" />
+    <option name="totallyTimeSpent" value="13536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
@@ -926,16 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop fsimage和edits.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -971,6 +965,36 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="396">
             <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-hadoop SecondaryNamenode.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-03-mysql 索引.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="108">
+            <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-05-02-flink 精准一次处理语义 .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
